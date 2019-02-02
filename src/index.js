@@ -9,7 +9,11 @@ const API_KEY = 'AIzaSyCQdnqWgV-qyuPPE6Nhgi1-3Jr-bPTXP7M';
 
 
 const App = () => {
-    return <div>Hey there, rat biscuit!</div>;
+    return (
+      <div>
+        <SearchBar />
+      </div>
+    );
 }
 
 
