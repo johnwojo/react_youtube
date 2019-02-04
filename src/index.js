@@ -4,10 +4,6 @@ import SearchBar from './components/search_bar';
 
 const API_KEY = 'AIzaSyCQdnqWgV-qyuPPE6Nhgi1-3Jr-bPTXP7M';
 
-// Create a new component.
-// Component should produce some HTML.
-
-
 const App = () => {
     return (
       <div>
@@ -17,8 +13,4 @@ const App = () => {
 };
 
 
-// Take this component's generated HTML and put it in the DOM.
-
 ReactDOM.render(<App />, document.querySelector('.container'));
-
-// 1.) Make, then 2.) show.
